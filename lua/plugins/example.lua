@@ -91,7 +91,21 @@ return {
       ---@type lspconfig.options
       servers = {
         -- pyright will be automatically installed with mason and loaded with lspconfig
-        pyright = {},
+        pyright = {
+          settings = {
+            pyright = {
+              disableOrganizeImports = true,
+            },
+            python = {
+              venvPath = ".venv",
+              pythonPath = "python",
+              analysis = {
+                useLibraryCodeForTypes = true,
+                typeCheckingMode = "standard",
+              },
+            },
+          },
+        },
       },
     },
   },
@@ -150,7 +164,6 @@ return {
         "python",
         "query",
         "regex",
-        "java",
         "tsx",
         "typescript",
         "vim",
