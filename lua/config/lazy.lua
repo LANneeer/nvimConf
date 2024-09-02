@@ -17,6 +17,9 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.python" },
     { import = "lazyvim.plugins.extras.lang.python-semshi" },
     { import = "lazyvim.plugins.extras.lang.java" },
+    { import = "lazyvim.plugins.extras.dap.core" },
+    { import = "lazyvim.plugins.extras.lang.python" },
+
     -- import/override with your plugins
     -- my additional plugins
     -- end my additional plugins
