@@ -126,8 +126,8 @@
     "plugins.extras.nav.search-labels"
   ],
   "news": {
-    "NEWS.md": "6520",
+    "NEWS.md": "7107",
     "doc/news.txt": "24447"
   },
-  "version": 6
+  "version": 7
 }
